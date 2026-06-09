@@ -93,7 +93,7 @@ export default function App() {
       <nav className="nav">
         <div className="nav-inner">
           <div className="nav-logo">
-            <img src="/logo.png" alt="Classic Generator Logo" className="nav-logo-img" />
+            <img src="/logo.jpeg" alt="Classic Generator Logo" className="nav-logo-img" />
             <div className="nav-name">
               <span className="nav-name-main">CLASSIC</span>
               <span className="nav-name-sub">GENERATOR &amp; POWER CO.</span>
@@ -220,6 +220,66 @@ export default function App() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── EV CHARGING ── */}
+      <section className="ev-section">
+        <div className="section-container">
+          <div className="ev-grid">
+
+            <div className="ev-text">
+              <span className="section-eyebrow ev-eyebrow">NEW SERVICE</span>
+              <h2 className="section-title ev-title">
+                EV Charging<br />Infrastructure
+              </h2>
+              <p className="ev-intro">
+                End-to-end EV charging solutions — from civil construction and hardware installation
+                through to daily operation and long-term maintenance, including remote and off-grid deployments.
+              </p>
+
+              <div className="ev-phases">
+                <div className="ev-phase">
+                  <div className="ev-phase-num">01</div>
+                  <div>
+                    <div className="ev-phase-title">Install</div>
+                    <p className="ev-phase-desc">Site survey, civil works, panel setup, charger mounting, cabling and commissioning across construction phases.</p>
+                  </div>
+                </div>
+                <div className="ev-phase">
+                  <div className="ev-phase-num">02</div>
+                  <div>
+                    <div className="ev-phase-title">Operate</div>
+                    <p className="ev-phase-desc">Day-to-day station management, remote monitoring, uptime assurance and remote deployments at any location.</p>
+                  </div>
+                </div>
+                <div className="ev-phase">
+                  <div className="ev-phase-num">03</div>
+                  <div>
+                    <div className="ev-phase-title">Maintain</div>
+                    <p className="ev-phase-desc">Preventive &amp; corrective O&amp;M — panel inspections, cable/connector servicing, fault diagnosis, DISCOM coordination and detailed service reports after every visit.</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="tel:9990065811" className="btn-primary ev-cta">
+                <span className="btn-icon"><PhoneIcon /></span>
+                Enquire About EV Services
+              </a>
+            </div>
+
+            <div className="ev-images">
+              <div className="ev-img-top-wrap">
+                <img src="/ev1.jpeg" alt="Tata Power EV Charging Station" className="ev-img" />
+                <div className="ev-img-label">Public Charging Station</div>
+              </div>
+              <div className="ev-img-bot-wrap">
+                <img src="/ev2.jpeg" alt="Solar canopy EV charging hub" className="ev-img" />
+                <div className="ev-img-label">Solar Canopy Hub</div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
